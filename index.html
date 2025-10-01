@@ -41,7 +41,9 @@
 }
 
 body {
-  background: rgb(255, 248, 241);
+  
+  background: var(--white-color);
+  
   height: auto;
   display: flex;
 	height: 100vh;
@@ -111,13 +113,15 @@ body {
   display: flex;
   overflow: hidden;
   flex-direction: column;
+   width: 100%;
+
 }
 
 header, .sidebar .nav-left, .category-list {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgb(255, 248, 241);
+  background:  var(--white-color);
 }
 
 .navbar {
@@ -156,7 +160,7 @@ header, .sidebar .nav-left, .category-list {
 }
 
 :where(.navbar, .sidebar) .nav-section .nav-button:hover {
-  background: rgb(255, 248, 241) !important;
+  background: var(--light-gray-color) !important;
 }
 
 :where(.navbar, .sidebar) .nav-button i {
@@ -234,7 +238,7 @@ header, .sidebar .nav-left, .category-list {
   width: 280px;
   overflow: hidden;
   padding: 0 0.7rem 0;
-  background: rgb(255, 248, 241);
+  background: var(--white-color);
 }
 
 .main-layout .sidebar .nav-left {
@@ -542,7 +546,7 @@ body.sidebar-hidden .main-layout .sidebar {
             <i class="uil uil-bars"></i>
           </button>
           <a href="#" class="nav-logo">
-            <img src="https://i.pinimg.com/originals/b8/e9/6b/b8e96bedbb9e2d8e00a48e1af86c8402.jpg" alt="Logo" class="logo-image">
+            <img src="Smruti\img1.jpg" alt="Logo" class="logo-image">
             <h2 class="logo-text">HP_Sahaj </h2>
           </a>
         </div>
